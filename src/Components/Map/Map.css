@@ -1,0 +1,17 @@
+.map{
+    margin:150px 0 0;
+    padding: 0px !important;
+    background-color: #730042;
+}
+
+.responsive-map iframe{
+    width: 100%;
+    height: 400px;
+}
+
+/* Mobile Screen  */
+@media screen and (max-width:575px){
+    .responsive-map{
+        height: auto;
+    }
+}
