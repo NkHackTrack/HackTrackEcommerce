@@ -7,6 +7,7 @@ const Navbar = () => {
         <h1>Navbar</h1>
         <p>This is heading</p>
         <h2>This is Heading 2</h2>
+        <h1>Check marge</h1>
     </div>
   )
 }
