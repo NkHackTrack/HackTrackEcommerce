@@ -1,11 +1,15 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+import IndustriesTab from './Components/IndustriesTab/IndustriesTab';
+import Card from './Components/Card/Cards';
+import Map from './Components/Map/Map';
 import Footer from './Components/Footer/Footer';
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Footer/>
+    <div>
+      <IndustriesTab/>
+        <Card/>
+        <Map/>
+        <Footer/>
     </div>
   );
 }
