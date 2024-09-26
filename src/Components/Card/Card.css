@@ -1,4 +1,4 @@
-.card{
+.main-card{
     height: 450px;
     overflow: hidden;
     transition: 0.5s;
@@ -9,12 +9,12 @@
     width: 100%;
     height: 100%;
 }
-.card:hover{
+.main-card:hover{
     transform: scale(1.05);
     transition: 0.5s;
 }
 
-.card:hover .card-heading{
+.main-card:hover .card-heading{
     z-index: 1000;
     color: #fff;
 }
